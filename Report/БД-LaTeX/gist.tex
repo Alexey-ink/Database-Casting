@@ -1,0 +1,22 @@
+\documentclass[a3paper]{article}
+\usepackage{graphicx} 
+\usepackage[utf8]{inputenc} % Кодировка документа
+\usepackage[T2A]{fontenc} % Внутренняя кодировка шрифтов
+\usepackage[russian]{babel} % Поддержка русского языка
+\usepackage{pdflscape} % Для альбомной ориентации
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} % Задаем отступы
+\pagestyle{empty} % Удаляем номера страниц
+\usepackage{hyperref}
+
+\begin{document}
+	\begin{landscape}
+		\begin{figure}[h]
+			\setcounter{figure}{40}
+			\centering
+			\includegraphics[width=0.7\linewidth]{g8.png}
+			\caption{Гистограмма числа заявок для каждого типа роли и каждого режиссера}
+			\label{fig:g8}
+		\end{figure}
+		
+	\end{landscape}    
+\end{document}
