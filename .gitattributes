@@ -1,1 +1,2 @@
 *.tex linguist-language=plaintext
+*.sql linguist-language=SQL
